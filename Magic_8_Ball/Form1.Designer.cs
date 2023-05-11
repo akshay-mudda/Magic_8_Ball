@@ -79,6 +79,7 @@
             this.Controls.Add(this.QuestionBox);
             this.Controls.Add(this.SubmitButton);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MagicEightBall";
             this.Text = "Magic 8 Ball";
             this.ResumeLayout(false);
